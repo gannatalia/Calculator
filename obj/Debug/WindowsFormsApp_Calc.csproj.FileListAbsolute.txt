@@ -1,0 +1,10 @@
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\bin\Debug\WindowsFormsApp_Calc.exe.config
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\bin\Debug\WindowsFormsApp_Calc.exe
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\bin\Debug\WindowsFormsApp_Calc.pdb
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.csprojAssemblyReference.cache
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.Form1.resources
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.Properties.Resources.resources
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.csproj.GenerateResource.cache
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.csproj.CoreCompileInputs.cache
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.exe
+E:\VisualProject\WindowsFormsApp_Calc\WindowsFormsApp_Calc\obj\Debug\WindowsFormsApp_Calc.pdb
