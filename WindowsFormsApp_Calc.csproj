@@ -47,7 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calc\Adder.cs" />
+    <Compile Include="Calc\Division.cs" />
     <Compile Include="Calc\Interface1.cs" />
+    <Compile Include="Calc\Multiplication.cs" />
+    <Compile Include="Calc\Substracter.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

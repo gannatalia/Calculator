@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp_Calc.Calc
 {
-    class Adder : ICalc // имплемент интерфейс
+    public class Division: ICalc
     {
         public double DoMath(double tmp1, double tmp2)
         {
-            return tmp1 + tmp2;
+            return tmp1 / tmp2;
         }
+
     }
 }

@@ -41,7 +41,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.multiplication = new System.Windows.Forms.Button();
-            this.buttonsign = new System.Windows.Forms.Button();
+            this.buttonchangesign = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
             this.clear = new System.Windows.Forms.Button();
             this.division = new System.Windows.Forms.Button();
@@ -192,17 +192,18 @@
             this.multiplication.TabIndex = 12;
             this.multiplication.Text = "×";
             this.multiplication.UseVisualStyleBackColor = false;
+            this.multiplication.Click += new System.EventHandler(this.multiplication_Click);
             // 
-            // buttonsign
+            // buttonchangesign
             // 
-            this.buttonsign.BackColor = System.Drawing.Color.Purple;
-            this.buttonsign.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonsign.Location = new System.Drawing.Point(297, 191);
-            this.buttonsign.Name = "buttonsign";
-            this.buttonsign.Size = new System.Drawing.Size(33, 36);
-            this.buttonsign.TabIndex = 13;
-            this.buttonsign.Text = "+/-";
-            this.buttonsign.UseVisualStyleBackColor = false;
+            this.buttonchangesign.BackColor = System.Drawing.Color.Purple;
+            this.buttonchangesign.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonchangesign.Location = new System.Drawing.Point(297, 191);
+            this.buttonchangesign.Name = "buttonchangesign";
+            this.buttonchangesign.Size = new System.Drawing.Size(33, 36);
+            this.buttonchangesign.TabIndex = 13;
+            this.buttonchangesign.Text = "+/-";
+            this.buttonchangesign.UseVisualStyleBackColor = false;
             // 
             // button0
             // 
@@ -225,6 +226,7 @@
             this.clear.TabIndex = 15;
             this.clear.Text = "С";
             this.clear.UseVisualStyleBackColor = false;
+            this.clear.Click += new System.EventHandler(this.Form1_Load);
             // 
             // division
             // 
@@ -236,6 +238,7 @@
             this.division.TabIndex = 16;
             this.division.Text = "÷";
             this.division.UseVisualStyleBackColor = false;
+            this.division.Click += new System.EventHandler(this.division_Click);
             // 
             // solution
             // 
@@ -246,6 +249,7 @@
             this.solution.TabIndex = 17;
             this.solution.Text = "=";
             this.solution.UseVisualStyleBackColor = true;
+            this.solution.Click += new System.EventHandler(this.solution_Click);
             // 
             // Form1
             // 
@@ -256,7 +260,7 @@
             this.Controls.Add(this.division);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.button0);
-            this.Controls.Add(this.buttonsign);
+            this.Controls.Add(this.buttonchangesign);
             this.Controls.Add(this.multiplication);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button8);
@@ -293,7 +297,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button multiplication;
-        private System.Windows.Forms.Button buttonsign;
+        private System.Windows.Forms.Button buttonchangesign;
         private System.Windows.Forms.Button button0;
         private System.Windows.Forms.Button clear;
         private System.Windows.Forms.Button division;
